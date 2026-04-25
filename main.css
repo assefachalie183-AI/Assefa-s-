@@ -1,0 +1,38 @@
+:root {
+    --primary: #00d4ff;
+    --bg: #121212;
+}
+
+body {
+    background-color: var(--bg);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight {
+    color: var(--primary);
+}
+
+.btn {
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    cursor: pointer;
+    transition: 0.3s; /* smoothly changes on hover */
+}
+
+.btn:hover {
+    background: var(--primary);
+    color: #000;
+}
